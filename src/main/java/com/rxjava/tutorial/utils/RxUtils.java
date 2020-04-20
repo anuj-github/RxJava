@@ -36,6 +36,6 @@ public class RxUtils {
 
     private static int getRandom(int max){
         Random rand = new Random();
-        return rand.nextInt(max)+1;
+        return rand.nextInt(max);
     }
 }
