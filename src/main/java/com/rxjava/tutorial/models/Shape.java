@@ -24,4 +24,12 @@ public class Shape {
     public void setShape(String shape) {
         this.shape = shape;
     }
+
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "color='" + color + '\'' +
+                ", shape='" + shape + '\'' +
+                '}';
+    }
 }
