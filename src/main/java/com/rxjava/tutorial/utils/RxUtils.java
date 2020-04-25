@@ -10,6 +10,7 @@ public class RxUtils {
 
     private static final String [] colors = {"red", "green", "blue", "yellow", "white", "purple", "pink", "violet"};
     private static final String [] shapes = {"square", "rectangle", "circle", "cube", "pentagon", "hexagon", "stars"};
+    String name = "Default";
     public static List<Integer> getPositiveIntegers(int n){
         List<Integer> list = new ArrayList();
         for(int i =0; i<n;i++){
